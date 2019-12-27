@@ -16,7 +16,7 @@ retreinada para reconhecer qualquer outra coisa.
 
 Para testar, utilize o script: label_image.py
 
-ex:   python label_image.py [imagem_a_ser_analisada.jpg]
+ex:   python3.5 label_image.py [imagem_a_ser_analisada.jpg]
 
 
 O resultado da classificação será feito mostrando a probabilidade
@@ -48,7 +48,7 @@ Siga as instruções abaixo para realizar o "retreinamento" da camada
 de classificação:
 
 
-python image_retraining/retrain.py \
+python3.5 image_retraining/retrain.py \
 --bottleneck_dir=bottlenecks \
 --how_many_training_steps 500 \
 --model_dir=inception \
