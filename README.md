@@ -1,16 +1,12 @@
 # TensorFlowKeras
-++++++++++++++++++++++++++++++++++++
-Autor do projeto base deste projeto
-++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++ Autor do projeto base deste projeto ++++++++++++++++++++++++
 
 Deep Learning Summer School 2018
 Hands On TensorFlow and Keras
 Sandro Silva Moreira
 moreira.sandro@gmail.com
 
-++++++++++++++++++++++++++++
-Instruções:
-++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++ Instruções ++++++++++++++++++++++++++++
 
 Este exemplo usa uma rede neural Inception com arquitetura pré-treinada (transfer learning) para extrair as características da imagem analisada.
 
