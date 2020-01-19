@@ -34,4 +34,18 @@ with tf.Session() as sess:
     for node_id in top_k:
         human_string = label_lines[node_id]
         score = predictions[0][node_id]
-        print('%s (score = %.5f)' % (human_string, score))
+        
+        if score >= 0.5:
+            print('class = %s (score = %.5f)' % (human_string, score))
+            # Abra o arquivo (leitura)
+            arquivo = open('resultado.txt', 'r')
+            conteudo = arquivo.readlines()
+
+            # insira seu conteúdo
+            # obs: o método append() é proveniente de uma lista
+            conteudo.append('class = %s (score = %.5f);\n' % (human_string, score))
+            # Abre novamente o arquivo (escrita)
+            # e escreva o conteúdo criado anteriormente nele.
+            arquivo = open('resultado.txt', 'w')
+            arquivo.writelines(conteudo)
+            arquivo.close()
