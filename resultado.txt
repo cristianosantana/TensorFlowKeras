@@ -1,8 +1,3 @@
-class = french fries (score = 0.60347);
-class = french fries (score = 0.92718);
-class = french fries (score = 0.60257);
-class = grilled salmon (score = 0.73270);
-class = grilled salmon (score = 0.65515);
-class = escargots (score = 0.99632);
-class = escargots (score = 0.94768);
-class = escargots (score = 0.96859);
+
+data: {'class': 'hot dog', 'score': 0.9083396};
+data: {'class': 'hot dog', 'score': 0.97158885};
