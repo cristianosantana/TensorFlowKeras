@@ -1,3 +1,5 @@
 
 data: {'class': 'hot dog', 'score': 0.9083396};
 data: {'class': 'hot dog', 'score': 0.97158885};
+data: {'class': 'french fries', 'score': 0.6034739};
+data: {'score': 0.7327022, 'class': 'grilled salmon'};
